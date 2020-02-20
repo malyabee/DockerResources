@@ -18,7 +18,7 @@ $ docker login
 $ docker pull store/oracle/database-enterprise:12.2.0.1
 
 
-## Running oracle DB on server 
+## Running oracle DB as container
 
 $ docker run -d -it --name Oracle-DB -p 1521:1521/tcp -p 5500:5500/tcp store/oracle/database-enterprise:12.2.0.1
 
